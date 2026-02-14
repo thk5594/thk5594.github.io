@@ -15,8 +15,7 @@ author_profile: true
   {% for post in site.publications reversed %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
-      <b>{{ post.title }}
-      <div style="font-size: 0.9em;">
+      <b>{{ post.title }}</b>
         {% if post.paperurl %}
           [<a href="{{ post.paperurl }}">PDF</a>]
         {% endif %}
@@ -26,7 +25,6 @@ author_profile: true
         {% if post.code %}
           [<a href="{{ post.code }}">Code</a>]
         {% endif %}
-      </div></b>
       {% if post.coauthor %}
           <br> 
           with {{ post.coauthor}}
