@@ -23,7 +23,12 @@ author_profile: true
         {% if post.code %}
           [<a href="{{ post.code }}">Code</a>]
         {% endif %}
-        {% if post.award %}<br><p style="font-size: 0.9rem; color: red;">-{{ post.award}}</p>{% endif %}{% if post.coauthor %}<br> with {{ post.coauthor}}{% endif %}
+        {% if post.award %}
+          <p style="font-size: 0.9rem; color: red;">-{{ post.award}}
+          {% if post.coauthor %}<br> with {{ post.coauthor}}{% endif %}
+        {% else %}
+            {% if post.coauthor %}<br> with {{ post.coauthor}}{% endif %}
+        </p>{% endif %}
       <!-- 게재지 및 연도 -->
       <span style="font-style: italic;">
         <br>{% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
