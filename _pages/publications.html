@@ -13,7 +13,7 @@ author_profile: true
   {% for post in site.publications reversed %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
-      <b>{{ post.title }}</b>
+      <u>{{ post.title }}</u>
         {% if post.paperurl %}
           [<a href="{{ post.paperurl }}">PDF</a>]
           {% if post.doi %}
@@ -26,9 +26,9 @@ author_profile: true
       </li>
       <!-- <ul> -->
           with {{ post.coauthor}}
-          <u><p style="font-style: italic;"> 
+          <b><p style="font-style: italic;"> 
             {% if post.venue %}{{ post.venue }}, {% else %} {{ post.status }}, {% endif %}{{ post.date | date: "%Y" }}
-          </p></u>
+          </b></u>
           {% if post.award %}
             <p style= "color: red;">-{{ post.award}}</p>
         {% endif %}
