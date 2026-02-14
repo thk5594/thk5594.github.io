@@ -16,12 +16,12 @@ author_profile: true
       <b>{{ post.title }}</b>
         {% if post.paperurl %}
           [<a href="{{ post.paperurl }}">PDF</a>]
-        {% endif %}
-        {% if post.doi %}
-          [<a href="{{ post.doi }}">DOI</a>]
-        {% endif %}
-        {% if post.code %}
-          [<a href="{{ post.code }}">Code</a>]
+          {% if post.doi %}
+            [<a href="{{ post.doi }}">DOI</a>]
+            {% if post.code %}
+              [<a href="{{ post.code }}">Code</a>]
+            {% endif %}
+          {% endif %}
         {% endif %}
         <br> with {{ post.coauthor}}
       <!-- 게재지 및 연도 -->
