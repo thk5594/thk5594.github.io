@@ -9,4 +9,5 @@ paperurl: "https://arxiv.org/abs/2207.07533"
 doi: "https://doi.org/10.1287/opre.2022.0343"
 status:
 award:
+issn: " 73(6):3199-3218"
 ---
