@@ -23,7 +23,7 @@ author_profile: true
             {% endif %}
           {% endif %}
         {% endif %}
-        <br> with {{ post.coauthor}}
+        with {{ post.coauthor}}
       <!-- 게재지 및 연도 -->
       <p style="font-style: italic;"> 
         {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
