@@ -17,8 +17,10 @@ author_profile: true
       <!-- 논문 제목 -->
       <b>{{ post.title }}</b>
       {% if post.coauthor %}
-          with {{ post.coauthor}} <br>
+          <br> 
+          with {{ post.coauthor}}
         {% endif %}
+       <br>
       <!-- 게재지 및 연도 -->
       <span style="font-style: italic;">
         {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
