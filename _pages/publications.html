@@ -11,9 +11,9 @@ author_profile: true
 
 {% include base_path %}
 
-
+<ul>
   {% for post in site.publications reversed %}
-    <li style="margin-bottom: 15px;">
+    <li>
       <!-- 논문 제목 -->
       <b>{{ post.title }}</b>
       <br>
@@ -35,6 +35,7 @@ author_profile: true
       </div>
     </li>
   {% endfor %}
+</ul>
 
 <!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
