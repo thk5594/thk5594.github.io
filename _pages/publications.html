@@ -25,9 +25,11 @@ author_profile: true
         {% endif %}
         with {{ post.coauthor}}
       <!-- 게재지 및 연도 -->
-      <span style="font-style: italic;"> <br>{% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}</span>
+      <span style="font-style: italic;"> 
+        {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
+      </span>
       {% if post.award %}
-        <p style= color: red;">-{{ post.award}}</p>
+        <br><p style= color: red;">-{{ post.award}}</p>
       {% endif %}
     </li>
   {% endfor %}
