@@ -8,7 +8,7 @@ author_profile: true
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
-
+<p style="line-height: 0.8;">
 <ul>
   {% for post in site.publications reversed %}
     <li style="margin-bottom: 15px;">
@@ -35,5 +35,6 @@ author_profile: true
       </ul>
   {% endfor %}
 </ul>
+</p>
 
 
