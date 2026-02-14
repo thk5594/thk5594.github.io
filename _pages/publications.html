@@ -26,10 +26,9 @@ author_profile: true
       </li>
       <!-- <ul> -->
           with {{ post.coauthor}}
-          <b><p style="font-style: italic;"> 
+          <p style="font-style: italic;"> 
             {% if post.status %}{{ post.status }} {% endif %} 
-          </b>
-          {{ post.venue }}, {{ post.date | date: "%Y" }}
+          <b>{{ post.venue }}</b>, {{ post.date | date: "%Y" }}
           {% if post.award %}
             <p style= "color: red;">-{{ post.award}}</p>
         {% endif %}
