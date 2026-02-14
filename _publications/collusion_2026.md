@@ -1,6 +1,6 @@
 ---
 title: "On Theoretical Analysis of Algorithmic Collusion"
-collection: publications
+collection: workingpapers
 permalink: /publication/collusion_2026
 date: 
 coauthor: "Huijun Chen and Dongwook Shin"
