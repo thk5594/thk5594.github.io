@@ -8,4 +8,5 @@ venue: "Proceedings of the 2021 Winter Simulation Conference"
 paperurl: "https://www.informs-sim.org/wsc21papers/179.pdf"
 doi: "https://ieeexplore.ieee.org/document/9715474"
 status:
+award:
 ---
