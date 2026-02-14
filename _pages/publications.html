@@ -9,7 +9,7 @@ author_profile: true
 {% endif %}
 <p style="line-height: 0.8;">
 <ul>
-  {% for post in site.publications %}
+  {% for post in site.publications reversed %}
     {% if post.date %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
@@ -43,10 +43,11 @@ author_profile: true
 <p style="line-height: 0.8;">
 <ul>
   {% for post in site.publications reversed %}
-    <li style="margin-bottom: 15px;">
+    {% if post.working %}
+      <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
-      <u>{{ post.title }}</u>
-    </li>
+        <u>{{ post.title }}</u>
+      </li>
       <!-- <ul> -->
       with {{ post.coauthor}}
       <p style="font-style: italic;"> 
@@ -55,6 +56,7 @@ author_profile: true
       {% if post.award %}
         <p style= "color: red;">-{{ post.award}}</p>
       {% endif %}
+    {% endif %}
       <!-- </ul> -->
   {% endfor %}
 </ul>
