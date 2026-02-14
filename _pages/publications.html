@@ -24,10 +24,8 @@ author_profile: true
           [<a href="{{ post.code }}">Code</a>]
         {% endif %}
         {% if post.award %}
-          <br> <p style= color: red;">-{{ post.award}}</p>
-        {% else %}
-          <br>
-        {% endif %}  
+          <p style= color: red;">-{{ post.award}}</p>
+        {% endif %}
         with {{ post.coauthor}}
       <!-- 게재지 및 연도 -->
       <span style="font-style: italic;"> <br>{% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}</span>
