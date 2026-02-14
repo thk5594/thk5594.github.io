@@ -23,7 +23,7 @@ repository               : "thk5594/thk5594.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : # "profile.png"
+  # avatar           : # "profile.png"
   name             : "Taeho Kim"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow, Department of ISOM"
