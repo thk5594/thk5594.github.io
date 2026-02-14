@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Taeho Kim"
 title_separator          : "-"
 name                     : &name "Taeho Kim"
@@ -26,7 +26,7 @@ author:
   avatar           : # "profile.png"
   name             : "Taeho Kim"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Fellow"
+  bio              : "Postdoctoral Fellow, Department of ISOM"
   location         : "Hong Kong SAR"
   employer         : "Hong Kong University of Science and Technology"
   uri              : # URL
@@ -274,14 +274,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
   - scope:
       path: ""
