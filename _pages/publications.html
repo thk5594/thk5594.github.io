@@ -45,10 +45,8 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% if post.working %}
       <li style="margin-bottom: 15px;">
-      <!-- 논문 제목 -->
         <u>{{ post.title }}</u>
       </li>
-      <!-- <ul> -->
       with {{ post.coauthor}}
       <p style="font-style: italic;"> 
         {% if post.status %}{{ post.status }} {% endif %} 
@@ -57,7 +55,6 @@ author_profile: true
         <p style= "color: red;">-{{ post.award}}</p>
       {% endif %}
     {% endif %}
-      <!-- </ul> -->
   {% endfor %}
 </ul>
 </p>
