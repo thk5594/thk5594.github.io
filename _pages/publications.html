@@ -42,9 +42,7 @@ author_profile: true
 
 <p style="line-height: 0.8;">
 <ul>
-  {% for post in site.publications reversed %}
-    {% if post.date %}
-    {% else %}
+  {% for post in site.workingpapers reversed %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
       <u>{{ post.title }}</u>
@@ -58,7 +56,6 @@ author_profile: true
         <p style= "color: red;">-{{ post.award}}</p>
       {% endif %}
       <!-- </ul> -->
-    {% endif %}
   {% endfor %}
 </ul>
 </p>
