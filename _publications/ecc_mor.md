@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/ldr_pgs
 date: 2025-12-01
 coauthor: "Kyoung-Kuk Kim and Michael C. Fu"
-venue: "2nd round review at Mathematics of Operations Research"
+venue: 
 paperurl: 
 doi: 
-status:
+status: "under 2nd round review at Mathematics of Operations Research"
 award: 
 ---
