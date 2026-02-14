@@ -11,9 +11,35 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+<ul>
+  {% for post in site.publications reversed %}
+    <li style="margin-bottom: 15px;">
+      <!-- 논문 제목 -->
+      <b>{{ post.title }}</b>
+      <br>
+      <!-- 게재지 및 연도 -->
+      <span style="font-style: italic;">
+        {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
+      </span>
+      
+      <!-- 링크 버튼들 (PDF, Code 등 Front matter에 있는 경우만 표시) -->
+      <div style="font-size: 0.9em;">
+        {% if post.paperurl %}
+          [<a href="{{ post.paperurl }}">PDF</a>]
+        {% endif %}
+        {% if post.code %}
+          [<a href="{{ post.code }}">Code</a>]
+        {% endif %}
+        <!-- 상세 페이지로 가는 링크가 필요하면 아래 주석 해제 -->
+        <!-- [<a href="{{ post.url }}">More Info</a>] -->
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- New style rendering if publication categories are defined -->
 <!-- {% if site.publication_category %}
