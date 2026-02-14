@@ -24,8 +24,8 @@ author_profile: true
           {% endif %}
         {% endif %}
         <ul>
-          with "{{ post.coauthor}}"
           <li style="margin-bottom: 15px;">
+            <br> with "{{ post.coauthor}}"
             <p style="font-style: italic;"> 
               {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
             </p>
