@@ -23,16 +23,16 @@ author_profile: true
             {% endif %}
           {% endif %}
         {% endif %}
-        <ul>
-            with {{ post.coauthor}}
-            <p style="font-style: italic;"> 
-              {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
-            </p>
-            {% if post.award %}
-              <p style= color: red;">-{{ post.award}}</p>
-          {% endif %}
-        </ul>
-    </li>
+      </li>
+      <ul>
+          with {{ post.coauthor}}
+          <p style="font-style: italic;"> 
+            {% if post.venue %}{{ post.venue }}, {% endif %}{{ post.date | date: "%Y" }}
+          </p>
+          {% if post.award %}
+            <p style= color: red;">-{{ post.award}}</p>
+        {% endif %}
+      </ul>
   {% endfor %}
 </ul>
 
