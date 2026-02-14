@@ -9,7 +9,7 @@ author_profile: true
 {% endif %}
 <p style="line-height: 0.8;">
 <ul>
-  {% for post in site.working %}
+  {% for post in site.publications %}
     {% if post.date %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
@@ -42,7 +42,7 @@ author_profile: true
 
 <p style="line-height: 0.8;">
 <ul>
-  {% for post in site.workingpapers reversed %}
+  {% for post in site.publications reversed %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
       <u>{{ post.title }}</u>
