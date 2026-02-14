@@ -40,4 +40,27 @@ author_profile: true
 
 <h2>Working Papers</h2>
 
+<p style="line-height: 0.8;">
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.date %}
+    {% else %}
+    <li style="margin-bottom: 15px;">
+      <!-- 논문 제목 -->
+      <u>{{ post.title }}</u>
+    </li>
+      <!-- <ul> -->
+      with {{ post.coauthor}}
+      <p style="font-style: italic;"> 
+        {% if post.status %}{{ post.status }} {% endif %} 
+      <b>{{ post.venue }}</b>, {{ post.date | date: "%Y" }}
+      {% if post.award %}
+        <p style= "color: red;">-{{ post.award}}</p>
+      {% endif %}
+      <!-- </ul> -->
+    {% endif %}
+  {% endfor %}
+</ul>
+</p>
+
 
