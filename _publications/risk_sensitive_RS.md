@@ -8,4 +8,5 @@ venue: "Proceedings of the 2023 Winter Simulation Conference"
 paperurl: "https://informs-sim.org/wsc23papers/283.pdf"
 doi: "https://doi.org/10.1109/WSC60868.2023.10407133"
 status:
+award:
 ---
