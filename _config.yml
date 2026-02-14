@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Taeho Kim"
 title_separator          : "-"
 name                     : &name "Taeho Kim"
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow, Department of ISOM"
   location         : "Hong Kong SAR"
-  employer         : "Hong Kong University of Science and Technology"
+  employer         : "HKUST"
   uri              : # URL
   email            : "thk5594@gmail.com" 
 
