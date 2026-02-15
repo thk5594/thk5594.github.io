@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow"
   location         : "Hong Kong SAR"
-  employer         : "Dpartment of ISOM, HKUST Business School"
+  employer         : "HKUST Business School"
   uri              : # URL
   email            : "thk5594@gmail.com" 
 
@@ -42,7 +42,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Taeho_Kim21?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
 
