@@ -7,13 +7,26 @@ author_profile: true
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
-<p style="line-height: 0.8;">
+
+<ul>
+
+<li> <u>Selection of the Most Probable Best under Input Uncertainty </u> 
+  [<a href="{{https://www.informs-sim.org/wsc21papers/179.pdf}}">pdf</a>][<a href="{{ https://ieeexplore.ieee.org/document/9715474 }}">doi</a>]
+  <ul>
+    with {{"Kyoung-Kuk Kim and Eunhye Song"}}
+    <b>{{"Proceedings of the 2021 Winter Simulation Conference"}}</b>, {{"2021"}}
+  </ul>
+</li>
+
+</ul>
+
+<!-- <p style="line-height: 0.8;">
 <ul>
   {% for post in site.publications reversed %}
     {% if post.date %}
     <li style="margin-bottom: 15px;">
       <!-- 논문 제목 -->
-      <u>{{ post.title }}</u>
+      <!-- <u>{{ post.title }}</u>
         {% if post.paperurl %}
           [<a href="{{ post.paperurl }}">pdf</a>]
           {% if post.doi %}
@@ -25,7 +38,7 @@ author_profile: true
         {% endif %}
       </li>
       <!-- <ul> -->
-          with {{ post.coauthor}}
+          <!-- with {{ post.coauthor}}
           <p style="font-style: italic;"> 
             {% if post.status %}{{ post.status }} {% endif %} 
           <b>{{ post.venue }}</b>, {{ post.date | date: "%Y" }}
@@ -33,30 +46,10 @@ author_profile: true
             <p style= "color: red;">-{{ post.award}}</p>
         {% endif %}
       <!-- </ul> -->
-    {% endif %}
-  {% endfor %}
-</ul>
-</p>
+    <!-- {% endif %}
+  {% endfor %} -->
+<!-- </ul>
+</p>  -->
 
-<!-- <h2>Working Papers</h2> -->
-
-<!-- <p style="line-height: 0.8;">
-<ul>
-  {% for post in site.publications reversed %}
-    {% if post.working %}
-      <li style="margin-bottom: 15px;">
-        <u>{{ post.title }}</u>
-      </li>
-      with {{ post.coauthor}}
-      <p style="font-style: italic;"> 
-        {% if post.status %}{{ post.status }} {% endif %} 
-      <b>{{ post.venue }}</b>
-      {% if post.award %}
-        <p style= "color: red;">-{{ post.award}}</p>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</ul>
-</p> -->
 
 
