@@ -9,7 +9,7 @@ Hello, everyone. I am currently a postdoctoral researcher at the HKUST Business 
 Please find my up-to-date vita [here](https://www.dropbox.com/scl/fi/mznq1e4yznmsofoj9cvad/CV_TaehoKim_20251101.pdf?rlkey=21lopyt805how4ixs91wetccs&st=430yov2b&dl=0) (Last update: Nov 1st, 2025)
 
 Research Interests
-======
+------
 - Monte Carlo methods in operations research and operations management
 - Sequential decision making under uncertainty
 - Data-driven stochastic modeling and simulation analytics
