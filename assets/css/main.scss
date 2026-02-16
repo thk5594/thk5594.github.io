@@ -41,3 +41,18 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4, h5, h6,
+  .page__title,
+  .archive__item-title {
+    color: #87ceeb !important; /* 원하는 색상 코드로 변경하세요 (예: 노란색) */
+  }
+  
+  /* 링크가 걸린 제목의 색상도 바꾸고 싶다면 아래 주석을 해제하세요 */
+  /*
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #ffeb3b !important;
+  }
+  */
+}
