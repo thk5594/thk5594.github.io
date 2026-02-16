@@ -14,33 +14,26 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- 다크모드 헤딩 색상 강제 변경 -->
+<!-- 다크 모드 전용 스타일 (라이트 모드 영향 없음) -->
 <style>
-  /* 1. 기기 설정이 다크모드일 때 */
+  /* @media 괄호 시작: 이 안의 내용은 오직 '다크 모드'일 때만 작동합니다 */
   @media (prefers-color-scheme: dark) {
+    
+    /* 제목 태그들의 색상을 스카이 블루로 변경 */
     h1, h2, h3, h4, h5, h6,
     .page__title,
     .archive__item-title,
     div#page-title {
-      color: #60a5fa !important; /* 원하는 색상(예: 노란색) */
+      color: #60a5fa !important;
     }
-    
-    /* 링크가 걸린 제목들도 강제로 변경 */
+
+    /* 링크가 걸린 제목들도 스카이 블루로 변경 */
     h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
     .archive__item-title a {
       color: #60a5fa !important;
     }
-  }
-
-  /* 2. 테마 자체 클래스로 다크모드가 켜졌을 때 (혹시 모를 대비) */
-  body.dark, body.dark-mode, html[data-theme="dark"] {
-    h1, h2, h3, h4, h5, h6,
-    .page__title,
-    .archive__item-title {
-      color: #60a5fa !important;
-    }
-  }
+    
+  } /* @media 괄호 끝: 여기서 다크 모드 설정이 끝납니다 */
 </style>
-
 <!-- end custom head snippets -->
 
