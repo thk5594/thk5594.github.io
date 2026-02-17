@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
-  line-height: 1.3;
+  line-height: 1.5;
   font-family: $sans-serif; /* Roboto */
   font-weight: 300; /* al-folio 특유의 얇고 깔끔한 느낌 (가독성이 떨어지면 400으로 변경) */
 
@@ -44,7 +44,7 @@ strong, b {
 // }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $serif; /* 위에서 설정한 Roboto Slab */
+  font-family: $sans-serif; /* 위에서 설정한 Roboto Slab */
   font-weight: 400;    /* al-folio는 제목이 너무 두껍지 않음 */
   letter-spacing: -0.02em; /* 자간을 살짝 좁혀서 세련되게 */
 }
