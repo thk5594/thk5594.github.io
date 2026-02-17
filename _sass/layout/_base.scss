@@ -10,8 +10,15 @@ html {
 body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+
+  margin: 0;
+  padding: $masthead-height 0 0;
+  padding-bottom: 9em;
+  line-height: 1.2;
   font-family: $sans-serif; /* Roboto */
   font-weight: 300; /* al-folio 특유의 얇고 깔끔한 느낌 (가독성이 떨어지면 400으로 변경) */
+
+   
 }
 
 // body {
