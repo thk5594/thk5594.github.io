@@ -8,6 +8,8 @@ html {
 }
 
 body {
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
   font-family: $sans-serif; /* Roboto */
   font-weight: 300; /* al-folio 특유의 얇고 깔끔한 느낌 (가독성이 떨어지면 400으로 변경) */
 }
