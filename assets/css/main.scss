@@ -40,6 +40,27 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
+
+   :root {
+     --global-base-color: #18324a;
+   
+     --global-bg-color: #f7f9fc;
+     --global-footer-bg-color: #eef2f6;
+   
+     --global-border-color: #dce4ea;
+     --global-dark-border-color: #b7c4ce;
+   
+     --global-link-color: #087e8b;
+     --global-link-color-hover: #05616b;
+     --global-link-color-visited: #526f78;
+   
+     --global-masthead-link-color: #18324a;
+     --global-masthead-link-color-hover: #087e8b;
+   
+     --global-text-color: #263238;
+     --global-text-color-light: #667085;
+     --global-thead-color: #eef3f6;
+   }
 ;
 
 
