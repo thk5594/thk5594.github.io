@@ -87,13 +87,18 @@ a.pub-btn:focus-visible {
 /* 버튼 줄 전체의 위치와 간격 */
 li.pub-links {
   list-style: none;
-  margin-left: -25px;
-  margin-top: 8px;
+  margin: 8px 0 0 -25px;
   padding: 0;
 
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+}
+
+/* 버튼 자체의 좌우 여백 제거 */
+li.pub-links a.pub-btn,
+li.pub-links a.pub-btn:visited {
+  margin: 0;
 }
 
 /* 개별 버튼에는 음수 여백을 주지 않음 */
