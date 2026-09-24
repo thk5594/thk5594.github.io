@@ -24,8 +24,8 @@ I would welcome an opportunity to serve as a reviewer. Please don't hesitate to 
 ------
 - Stochastic simulation and Monte Carlo methods
 - Sequential decision-making under uncertainty
-- Data-driven stochastic modeling and simulation analytics
-- Interface of AI and Simulation
+- Data-driven stochastic modeling/optimization/risk analytics
+- Interface between AI and simulation
 
 ## Honors & Awards
 
@@ -40,7 +40,6 @@ I would welcome an opportunity to serve as a reviewer. Please don't hesitate to 
 
   <p class="home-award-details">
     Project: Reinforcement Learning with High-Dimensional Features<br>
-    Supervisor: <a href="https://dwshin.people.ust.hk/">Prof. Dongwook Shin</a><br>
     Funding: HKD 420,000 per year
   </p>
 
