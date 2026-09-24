@@ -120,5 +120,78 @@ li.pub-links a.pub-btn:visited {
 }
 
 
+/* ==================================
+   Homepage
+   ================================== */
+
+/* CV 버튼과 업데이트 날짜 */
+.home-cv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin: 20px 0 28px;
+}
+
+/* 메인 페이지 전용 버튼 */
+a.home-btn,
+a.home-btn:visited {
+  display: inline-block;
+  padding: 5px 12px;
+
+  color: #244A64;
+  background: transparent;
+  border: 1px solid #244A64;
+  border-radius: 5px;
+
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+
+  text-decoration: none;
+  box-shadow: none;
+}
+
+a.home-btn:hover,
+a.home-btn:focus-visible {
+  color: #fff;
+  background: #244A64;
+  text-decoration: none;
+}
+
+a.home-btn:focus-visible {
+  outline: 2px solid #244A64;
+  outline-offset: 3px;
+}
+
+/* 날짜 등 보조 정보 */
+.home-note {
+  color: inherit;
+  font-size: 0.85em;
+}
+
+/* 수상 내역 */
+.home-award {
+  margin-top: 12px;
+}
+
+.home-award-title {
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+.home-award .home-award-details {
+  margin: 12px 0;
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+
+.home-award-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 
 
