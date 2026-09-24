@@ -20,7 +20,7 @@ I received my Ph.D. in Mathematical Sciences from Korea Advanced Institute of Sc
 
 I would welcome an opportunity to serve as a reviewer. Please don't hesitate to send me the request!
 
-## Research Interests
+# Research Interests
 ------
 - Stochastic simulation and Monte Carlo methods
 - Sequential decision-making under uncertainty
