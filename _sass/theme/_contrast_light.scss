@@ -2,24 +2,45 @@
    CONTRAST THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #b60000;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#fff, $primary-color, 50%);
-$lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #f8f9fa;
-$background-light           : #fafafa;
-$background-lighter        : #ffffff;
-$text                      : #000000;
-$text-muted                : #404040;
-$link                      : #a5009b;
-$link-dark                 : #0000cc;
-$link-light                : #3333ff;
-$footer                    : #ffffff;
-$border                    : #c0c0c0;
-$border-dark               : #808080;
-$selection-bg              : #b3d4fc;
-$selection-text            : #000000;
+// $primary-color              : #b60000;
+// $dark-primary-color         : mix(#000, $primary-color, 40%);
+// $darker-primary-color       : mix(#000, $primary-color, 60%);
+// $light-primary-color        : mix(#fff, $primary-color, 50%);
+// $lighter-primary-color      : mix(#fff, $primary-color, 90%);
+// $background                 : #f8f9fa;
+// $background-light           : #fafafa;
+// $background-lighter        : #ffffff;
+// $text                      : #000000;
+// $text-muted                : #404040;
+// $link                      : #a5009b;
+// $link-dark                 : #0000cc;
+// $link-light                : #3333ff;
+// $footer                    : #ffffff;
+// $border                    : #c0c0c0;
+// $border-dark               : #808080;
+// $selection-bg              : #b3d4fc;
+// $selection-text            : #000000;
+
+$primary-color      : #245A81;
+
+$background         : #FFFFFF;
+$background-light   : #F7F8FA;
+$background-lighter : #FFFFFF;
+
+$text               : #30343B;
+$text-muted         : #626975;
+
+$link               : #245A81;
+$link-dark          : #173D59;
+$link-light         : #245A81;
+
+$footer             : #FFFFFF;
+
+$border             : #E5E7EB;
+$border-dark        : #C8CDD3;
+
+$selection-bg       : #DCEAF4;
+$selection-text     : #202832;
 
 /* Color codes used for the site */
 $danger-color               : #ff0000;
