@@ -49,5 +49,41 @@ a {
 }
 
 
+/* Publications: DOI / arXiv / PDF */
+a.pub-btn,
+a.pub-btn:visited {
+  display: inline-block;
+  padding: 3px 9px;
+  margin-left: 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  color: #245A81;
+  background-color: #FFFFFF;
+  border: 1px solid #245A81;
+  border-radius: 5px;
+
+  text-decoration: none;
+  box-shadow: none;
+}
+
+a.pub-btn:hover,
+a.pub-btn:focus-visible {
+  color: #FFFFFF;
+  background-color: #245A81;
+  border-color: #245A81;
+  text-decoration: none;
+}
+
+a.pub-btn:focus-visible {
+  outline: 2px solid #245A81;
+  outline-offset: 3px;
+}
+
+
 
 
