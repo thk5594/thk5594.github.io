@@ -12,10 +12,10 @@ I received my Ph.D. in Mathematical Sciences from Korea Advanced Institute of Sc
 
 <div class="home-cv">
   <a class="home-btn"
-     href="https://www.dropbox.com/scl/fi/rgh395mr7cpc95glq0xn3/CV_TaehoKim_Feb2026.pdf?rlkey=p9o31jekhfhtuxr3welj5kzjg&amp;st=3gadm9i0&amp;dl=0">
+     href="https://www.dropbox.com/scl/fi/p5lq5a5pf2kpl1f6709vp/CV_TaehoKim_Oct2026.pdf?rlkey=hjgb27hf76kdlc5fananzzzkb&st=6ehw4f3g&dl=0">
     Curriculum Vitae
   </a>
-  <span class="home-note">Updated February 2026</span>
+  <span class="home-note">Updated October 2026</span>
 </div>
 
 I would welcome an opportunity to serve as a reviewer. Please don't hesitate to send me the request!
