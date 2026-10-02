@@ -12,7 +12,7 @@ I received my Ph.D. in Mathematical Sciences from Korea Advanced Institute of Sc
 
 <div class="home-cv">
   <a class="home-btn"
-     href="https://www.dropbox.com/scl/fi/p5lq5a5pf2kpl1f6709vp/CV_TaehoKim_Oct2026.pdf?rlkey=hjgb27hf76kdlc5fananzzzkb&st=6ehw4f3g&dl=0">
+     href="https://www.dropbox.com/scl/fi/p5lq5a5pf2kpl1f6709vp/CV_TaehoKim_Oct2026.pdf?rlkey=hjgb27hf76kdlc5fananzzzkb&st=lnrqs6lc&dl=0">
     Curriculum Vitae
   </a>
   <span class="home-note">Updated October 2026</span>
